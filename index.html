@@ -3,190 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>assiment2</title>
+    <title>assinment2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="max-sm:w-[1140px]  m-auto">
-        <nav>
-            <div class="flex flex-row justify-between items-center m-6 w-full">
-                <img class="w-32 md:w-40" src="B12A02-Responsive-Flowers/assets/logo.png" alt="logo">
-                <ul class="flex flex-row items-center gap-4 md:gap-8">
-                    <li class="hidden md:block">Home</li>
-                    <li class="hidden md:block">Shop</li>
-                    <li class="hidden md:block">About us</li>
-                    <li class="flex items-center space-x-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                        </svg>
-                        <span>Cart</span>
-                    </li>
-                </ul>
-            </div>
+    <header>
+        <nav class="navbar">
+            <img src="B12A02-Responsive-Flowers/assets/logo.png" alt="logo">
+            <li>Home</li>
+            <li>shop</li>
+            <li>About Us</li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+            <span>Cart</span></li>
         </nav>
-
     </header>
     <main>
-        <div class="w-full max-w-[1140px] mx-auto mt-10 md:mt-[168px] px-4 grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-8 items-center">
-            <div class="text-center md:text-left mt-8 md:mt-0">
-                <h1 class="font-bold text-4xl md:text-6xl mb-6 md:mb-16">ALWAYS <span class="text-amber-700">FRESH</span><br class="hidden md:block"/>FLOWERS</h1>
-                <p class="text-base md:text-lg">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+        <div class="banner">
+            <div class="banner-style">
+                <h3>ALWAYS <span>FRESH</span><br>FLOWERS</h3>
+                <P>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </P>
             </div>
-            <img class="w-full max-w-xs md:max-w-md lg:max-w-lg mx-auto" src="B12A02-Responsive-Flowers/assets/hero-flower.png" alt="hero png">
-        </div>
+            <div>
+                <img src="B12A02-Responsive-Flowers/assets/hero-flower.png " alt="hero">
+            </div>
 
-        <div class="m-auto text-center justify-center items-center mt-28">
-            <h1 class="justify-center items-center text-4xl"><span class="text-4xl text-amber-700">our</span> plants</h1>
+        </div>
+        <!--plants tittle-->
+        <div class="our-plants">
+            <h3>Our plants</h3>
             <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
-
-    </main>
-    <section class="w-[1140px] grid grid-cols-4 max-w-sm:flex-col-2 gap-5 mt-[30px] m-auto ">
-            <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
+        <!--flower cart-->
+        <div class="flower-cart">
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="cart">
+            <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple flower">
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+            <button class="add-to-cart">Add to cart</button>
+            </div>
+            
+        </div>
+        <!--image strick-->
+        <div class="trust">
+            <div class="trust-add">
+            <div class="news-img">
+                <img src="B12A02-Responsive-Flowers/assets/flower-store.png" alt="flower-store">
+            </div>
+            <div class="trust-img">
+                <img style="width: 286px; height: 286px;" src="B12A02-Responsive-Flowers/assets/trusted-badge.png" alt="trusted-badge">
+            </div>
+            </div>
+            <div class="list-item">
+                <h3>Flower & Plants <br>Lover</h3>
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-            </div>
-            <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
-                
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-            </div>
-                <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-                <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-                <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-                <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-                <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-                <div class="mt-7">
-                <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="simple image">
-                    <h5 class="justify-items-center ml-20 text-2xl">Lily blossom</h5>
-                    <p class="ml-26 text-2xl font-bold">20 USD</p>
-                    <button class="bg-amber-600 p-1 w-[270px] h-[50px] mt-4 ">ADD TO CART</button>
-                </div>
-                <!--very hard -->
-
-                <div class="container w-6xl flex items-center m-auto mt-10 relative">
-                    
-                    <img class="h-max p-20" src="B12A02-Responsive-Flowers/assets/flower-store.png" alt="flowers flower-store">
-                    
-                    <img class="w-[286px] h-[286px] absolute top-0 ml-[400px] mb-" src="B12A02-Responsive-Flowers/assets/trusted-badge.png" alt="trusted png">
-                    <div class="ml-20">
-                        <h2 class="m-auto text-amber-700 text-4xl">Flower & Plants <br>Lover</h2>
-                        
-                            <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                            <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                            <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                            <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        
-                    </div>
-                </div>
-                
-         
-    </section>
-    <div class="w-6xl m-auto mt-10">
-        <h1 class="text-center font-bold text-2xl"> <span class="text-2xl text-amber-600">Latest</span> Plants</h1>
-        <p class="text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-
-    </div>
-    <!--blook-->
-    <div class=" sm:inline-block md: m-auto  grid grid-cols-3 w-6xl mt-10 gap-10">
-        <div class="block">
-        <div class=" text-center">
-            <div class="bg-[url('B12A02-Responsive-Flowers/assets/deal-bloom.png')] rounded-2xl w-[367px] h-[201px] flex flex-col justify-center items-center">
-                <h1 class="text-white">60% Of | Bloom plants</h1>
-                <button class="mt-4">Shop Now</button>
             </div>
         </div>
-        <div class="text-center">
-            <div class="bg-[url('B12A02-Responsive-Flowers/assets/deal-ana.png')] w-[367px] h-[201px] rounded-2xl mt-6 flex flex-col justify-center items-center">
-                <h1 class="text-5xl font-bold text-white">30% OF Ana plant</h1>
-                <button class="mt-4">Shop Now</button>
-            </div>
-        </div>
-        </div>
-        <div class="text-center">
-            <div class="bg-[url('B12A02-Responsive-Flowers/assets/deal-zabo.png')] w-3xl h-[422px] rounded-2xl flex flex-col justify-center items-center">
-                <h1 class="text-white">25% OF Zabo plant</h1>
-                <button class="mt-4">Shop Now</button>
-            </div>
-        </div>
-    </div>
-    <!--search-->
-    <div class="flex justify-center items-center mt-10 sm:justify-center flex-col ">
-        <div class="w-full">
-            <div class="bg-[url('B12A02-Responsive-Flowers/assets/news-letter-bg.png')] w-full h-[533px] flex justify-center items-center m-auto">
-                <div class="text-center">
-                    <h1 class="text-5xl font-bold mb-6">Join the colorful Bunch</h1>
-                    <input type="search" name="search" id="search" placeholder="write email" class="w-[500px] h-[50px] bg-white text-center rounded mb-4">
-                    <button class="bg-amber-700 w-46 h-12">subscribe</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="sm:inline md:flex m-auto justify-center gap-6 mt-10">
-        <div class="w-96">
-            <img src="B12A02-Responsive-Flowers/assets/logo.png" alt="logo png">
-            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
-        </div>
-        <div class="w-24">
-            <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Blog</li>
-                <li>FAQ</li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
-        <div class="w-32">
-            <ul>
-                <li>Features</li>
-                <li>pricing</li>
-                <li>privacy Policy</li>
-                <li>Terms of service</li>
-                <li>Help Center</li>
-            </ul>
-        </div>
-        <div>
-            <ul class="flex justify-center items-center gap-4">
-                <li><img src="B12A02-Responsive-Flowers/assets/icon-linkedin.png" alt="icon-linkedin"></li>
-                <li><img src="B12A02-Responsive-Flowers/assets/icon-twitter.png" alt="twitter"></li>
-                <li><img src="B12A02-Responsive-Flowers/assets/icon-facebook.png" alt="facebook"></li>
-                <li><img src="B12A02-Responsive-Flowers/assets/icon-youtube.png" alt="youtube"></li>
-        </div>
+        <!--latest plants-->
+        <div class="latest">
+            <h3><span>Latest</span>Deals</h3>
+            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         
+        </div>
+        <!--three pic-->
+        <div class="three-pic"></div>
+        <div class="two-pic">
+            <div style="background-image: url('B12A02-Responsive-Flowers/assets/deal-ana.png');background-size: cover;" class="first">
+                <h1>30% discount</h1>
+
+            </div>
+            <div style="background-image: url('B12A02-Responsive-Flowers/assets/deal-bloom.png'); background-size: cover;" class="middle">
+                <h1>20% discount</h1>
+
+            </div>
+            <div class="last">
+         
+                <h1>10% discount</h1>
+            </div>
+        </div>
+
+        </div>
+        <!--random-->
+        <div class="background">
+        <div class="background-style">
+            <input type="search" placeholder="Search for flowers...">
+            <button>subscribe</button>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-style">
+            <div class="simple">
+            <img src="B12A02-Responsive-Flowers/assets/logo.png" alt="logo">
+            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div class="simple-list">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>FAQ</li>
+            <li>Contact us</li>
+            </div>
+            <div class="extra-list">
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Help Center</li>
+            </div>
+            <div class="icon">
+                <img src="B12A02-Responsive-Flowers/assets/icon-linkedin.png" alt="icon-linkedin">
+                <br>
+                <img src="B12A02-Responsive-Flowers/assets/icon-twitter.png" alt="twitter">
+                <br>
+                <img src="B12A02-Responsive-Flowers/assets/icon-facebook.png" alt="facebook">
+                <br>
+                <img src="B12A02-Responsive-Flowers/assets/icon-youtube.png" alt="youtube">
+            </div>
+         </div>
 
     </footer>
-    
 </body>
 </html>
