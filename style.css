@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
@@ -17,17 +19,23 @@ header{
 }
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     width: 1140px;
     align-items: center;
     list-style: none;
     justify-content: space-between;
     margin-left: 10px;
+    margin: auto;
+    list-style: none;
 }
 .link{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    list-style: none;
+    margin-top: -50px;
+    margin-left: 620px;
 }
 .cart-buy{
 flex-direction: initial;
@@ -326,4 +334,3 @@ button{
     gap: 10px;
     margin-bottom: auto;
 }
-/*responsive-style*/
